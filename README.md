@@ -1,21 +1,44 @@
 # Project Proposal
 
-Project title:
-CartRanker
+## Project Title:
+**CartRanker**
 
-What and why?
+## What and Why?
 
-CartRanker is a program that allows users to rank and review various food trucks across New York City. Users are able to write reviews, upload photos, and share their experiences of various food trucks they've visited. The system is designed to provide a specific platform where users can share feedback about their dining experiences at a food truck, and don't have to worry about searching through other platforms to find food trucks, which typically have less reviews than restaurants, making them harder to find. Additionally, food trucks are smaller businesses that work on specialized schedules, making it harder to find their opening hours. This platform is important as it allows users to discover new food trucks based on real reviews and their preferences.  
+CartRanker is a platform that allows users to rank and review food trucks across New York City. Users can share detailed feedback, upload photos, and rate their experiences. This platform creates a user oriented community where individuals can discover food trucks based on their personalized preferences. 
 
-For whom?
+Food trucks are often small businesses with limited online presence and specialized schedules, making it difficult for customers to find their hours, menus, and locations. CartRanker addresses this by providing a centralized platform where food trucks can include up to date information, and users can easily find and explore trucks that match their preferences, saving time and effort in the food discovery process.
 
-This software is aimed towards tourists, college students, office workers, and foodies within NYC. These users will benefit from finding highly ranked food trucks in their area without the need to individually try each one to find the one that suits their needs the best. As these users typically have less time to explore various food trucks, whether that due to work or study schedules, this program would allow them to find their perfect match in the shortest amount of time. The platform is also designed for food truck owners to better describe their business and provide a platform where they can advertise their offerings and their hours of operation. The platform is ideally designed where all users can benefit from it. One potential use case would allow foodie users to write detailed reviews for a truck, owners to share their hours of operations and menu offerings, and users with limited free time where they could find their ideal meal in the shortest amount of time. 
+## For Whom?
+
+CartRanker is for food enthusiasts, busy professionals, and tourists looking to explore New York City's food trucks. Our initial end users will be:
+
+* Tourists visiting NYC who want to find the highest ranked food trucks quickly during their trip.
+* College students and office workers with limited time, seeking efficient ways to discover food trucks that match their preferences.
+* Foodies passionate about trying new food and sharing reviews with others.
+* Food truck owners who want a platform to showcase their menus, operating hours, and engage with customers.
+
+## How?
+
+The main view of the system would display a map of New York City with various icons indicating the locations of different food trucks. Users can click on each icon to view the food truck's menu, hours of operation, and menu items. Additionally, users can filter by cuisine, location, and customer ratings. Users will be able to rate a truck on a 1-5 star scale and include relevant pictures.
+
+Key features:
+- **Interactive map** of NYC with icons marking food truck locations.
+- **Truck details** including detailed menu, hours of operation, and dietary accommodations.
+- **Filters** to search by cuisine, location, and customer ratings.
+- **Rating system** with a 1-5 star scale and the ability to upload photos.
+- **Taste profile** feature where users can rank their spice tolerance and preferred cuisines.
+- **Follow similar users** with similar taste profiles for more relevant reviews.
+- **Dietary restrictions and allergies** filter to accommodate diverse dietary needs.
+- **Suggestion system** allowing users to propose new food trucks, keeping the platform current.
 
 
-How?
+## Scope
 
-The main view of the system would appear as a map of New York City with various icons displaying the locations of various food trucks. The user will be able to click on each icon to view the food truck's menu, hours of operation, and menu items. Also, users can filter by cuisine, location and customer ratings. Users will be able to review a truck with a 1-5 star rating and include any relevant pictures. Furthermore, users can set up a taste profile where they can rank their spice tolerances and typical cuisines they enjoy. This will allow users to follow a creator that has a similar taste profile and they can view their reviews in a higher regard. One other feature would be to inlcude dietary restrictions and alleries, to accomodate for all users. Users are also able to suggest new food trucks to allow for a well updated platform that allows the user to make the most informed decisions. 
+### Main Components:
+- **User Profiles:** Create and manage types of users and their given information. 
+- **Recommendation System:** Personalized suggestions based on user activity and preferences.
+- **Food Truck Database:** Manage a large number of food trucks and their menus on a given geographical area of NYC. 
+- **Review System:** Allow users to review and rate food trucks and upload photos. 
 
-Scope
-
-The project proposal is appropriate for a team of 4-6 programmers for a semester timeframe. Some of the main components include creating user profiles, a recommendation system, a database to allow for the large amount of food trucks and their menus, and an intuitive reviewing system. Given that both the front end and back end features need to be developed, this will allow for the group of programmers to find their niche and complete the project in the given timeframe.  
+This project is appropriate for a team of 4-6 programmers to complete in one semester as it encompasses esential front end and back end development skills. It is designed to allow for a working product to be delivered quickly while also allowing for other features to be included later. 
